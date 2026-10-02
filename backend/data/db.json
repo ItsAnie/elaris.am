@@ -1,0 +1,216 @@
+{
+  "invitations": [
+    {
+      "id": "invitation-001",
+      "title": {
+        "hy": "Elegance Gold",
+        "ru": "Elegance Gold",
+        "en": "Elegance Gold"
+      },
+      "category": "wedding",
+      "price": 14500,
+      "image": "/images/invitations/wedding-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-001",
+      "description": {
+        "hy": "Ոսկեզօծ շեշտադրումներով և մինիմալիստական էսթետիկայով շքեղ հրավիրատոմս:",
+        "ru": "Роскошное приглашение с золотыми акцентами и минималистичной эстетикой.",
+        "en": "A luxurious digital invitation featuring soft gold accents and timeless typography."
+      },
+      "features": [
+        "rsvp",
+        "music",
+        "map",
+        "countdown",
+        "gallery"
+      ]
+    },
+    {
+      "id": "invitation-002",
+      "title": {
+        "hy": "Pure Pearl",
+        "ru": "Pure Pearl",
+        "en": "Pure Pearl"
+      },
+      "category": "wedding",
+      "price": 13500,
+      "image": "/images/invitations/wedding-2.jpg",
+      "previewUrl": "https://example.com/preview/invitation-002",
+      "description": {
+        "hy": "Մարգարտյա նուրբ երանգներ, անիմացիոն ծաղկային շեշտադրումներ և ռոմանտիկ մթնոլորտ:",
+        "ru": "Нежные жемчужные тона, анимированные флористические акценты и романтика.",
+        "en": "Delicate pearl tones, animated floral accents, and a romantic atmosphere."
+      },
+      "features": [
+        "rsvp",
+        "music",
+        "map",
+        "countdown",
+        "schedule"
+      ]
+    },
+    {
+      "id": "invitation-003",
+      "title": {
+        "hy": "Velvet Promise",
+        "ru": "Velvet Promise",
+        "en": "Velvet Promise"
+      },
+      "category": "engagement",
+      "price": 12500,
+      "image": "/images/invitations/engagement-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-003",
+      "description": {
+        "hy": "Նուրբ և ջերմ ձևավորում նշանդրեքի արարողության համար՝ անհատական երաժշտությամբ:",
+        "ru": "Изысканный и теплый дизайн для церемонии помолвки с индивидуальной музыкой.",
+        "en": "Warm and graceful design crafted for engagement celebrations with custom music."
+      },
+      "features": [
+        "rsvp",
+        "map",
+        "music",
+        "countdown"
+      ]
+    },
+    {
+      "id": "invitation-004",
+      "title": {
+        "hy": "Golden Jubilee",
+        "ru": "Golden Jubilee",
+        "en": "Golden Jubilee"
+      },
+      "category": "birthday",
+      "price": 10900,
+      "image": "/images/invitations/birthday-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-004",
+      "description": {
+        "hy": "Վառ, ժամանակակից և հանդիսավոր դիզայն ծննդյան տոնակատարությունների համար:",
+        "ru": "Яркий, современный и торжественный дизайн для празднования дня рождения.",
+        "en": "Vibrant, modern, and celebratory design for memorable birthday milestones."
+      },
+      "features": [
+        "rsvp",
+        "map",
+        "countdown",
+        "gallery"
+      ]
+    },
+    {
+      "id": "invitation-005",
+      "title": {
+        "hy": "Angelic Light",
+        "ru": "Angelic Light",
+        "en": "Angelic Light"
+      },
+      "category": "baptism",
+      "price": 11900,
+      "image": "/images/invitations/baptism-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-005",
+      "description": {
+        "hy": "Լուսավոր և օրհնված ձևավորում մկրտության սրբազան խորհրդի համար:",
+        "ru": "Светлый и одухотворенный дизайн для таинства крещения.",
+        "en": "Luminous, pure, and spiritual aesthetic crafted for holy baptism ceremonies."
+      },
+      "features": [
+        "map",
+        "countdown",
+        "music",
+        "rsvp"
+      ]
+    },
+    {
+      "id": "invitation-006",
+      "title": {
+        "hy": "Little Miracle",
+        "ru": "Little Miracle",
+        "en": "Little Miracle"
+      },
+      "category": "baby",
+      "price": 10900,
+      "image": "/images/invitations/baby-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-006",
+      "description": {
+        "hy": "Հուզիչ և քնքուշ հրավիրատոմս մանկական տոների, Baby Shower-ի և ատամհատիկի համար:",
+        "ru": "Трогательное приглашение для детских праздников, Baby Shower и первого зубика.",
+        "en": "Tender and sweet design for baby arrivals, baby showers, and milestone steps."
+      },
+      "features": [
+        "rsvp",
+        "map",
+        "countdown",
+        "gallery"
+      ]
+    },
+    {
+      "id": "invitation-007",
+      "title": {
+        "hy": "Prestige Gala",
+        "ru": "Prestige Gala",
+        "en": "Prestige Gala"
+      },
+      "category": "corporate",
+      "price": 18500,
+      "image": "/images/invitations/corporate-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-007",
+      "description": {
+        "hy": "Կորպորատիվ բարձրակարգ հանդիպումների, գալա երեկոների և պաշտոնական ընդունելությունների համար:",
+        "ru": "Для статусных корпоративных мероприятий, гала-вечеров и официальных приемов.",
+        "en": "Polished and sophisticated digital invitation for executive galas and corporate summits."
+      },
+      "features": [
+        "rsvp",
+        "map",
+        "schedule",
+        "countdown"
+      ]
+    },
+    {
+      "id": "invitation-008",
+      "title": {
+        "hy": "Timeless Devotion",
+        "ru": "Timeless Devotion",
+        "en": "Timeless Devotion"
+      },
+      "category": "anniversary",
+      "price": 13900,
+      "image": "/images/invitations/anniversary-1.jpg",
+      "previewUrl": "https://example.com/preview/invitation-008",
+      "description": {
+        "hy": "Տարիների ջերմությունը մեկ հղումով՝ հոբելյանական և ընտանեկան կարևոր տարեդարձերի համար:",
+        "ru": "Тепло прожитых лет в одной ссылке — для юбилеев и памятных годовщин.",
+        "en": "Capturing years of shared memories in one link for anniversaries and jubilee banquets."
+      },
+      "features": [
+        "rsvp",
+        "map",
+        "music",
+        "countdown",
+        "gallery"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1790711878570_4t5n0",
+      "name": "Arman Karapetyan",
+      "phone": "+374 91 123456",
+      "email": "arman@example.com",
+      "eventType": "wedding",
+      "preferredInvitation": "Elegance Gold",
+      "package": "elegant",
+      "eventDate": "2026-10-20",
+      "message": "Looking forward to our digital invitation!",
+      "status": "pending",
+      "createdAt": "2026-09-29T19:57:58.570Z"
+    }
+  ],
+  "contact_requests": [
+    {
+      "id": "cnt_1790711878590_cc18q",
+      "name": "Silva Hakobyan",
+      "email": null,
+      "phone": "+374 77 987654",
+      "message": "Do you offer custom animations for baptism invitations?",
+      "createdAt": "2026-09-29T19:57:58.591Z"
+    }
+  ]
+}

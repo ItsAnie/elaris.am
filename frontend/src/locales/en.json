@@ -1,0 +1,332 @@
+{
+  "brand": {
+    "name": "ELARIS",
+    "subtitle": "Digital Invitations"
+  },
+  "nav": {
+    "home": "Home",
+    "invitations": "Invitations",
+    "occasions": "Occasions",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "orderCta": "Order",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "Elegant Digital Invitations",
+    "title": "Your special moments in one beautiful link",
+    "description": "ELARIS crafts personalized, elegant, and interactive digital invitations for life's most meaningful events. Seamless guest RSVP confirmation, interactive navigation maps, and ambient background music — delivered in a single tap.",
+    "viewInvitations": "View Invitations",
+    "createInvitation": "Create My Invitation",
+    "stats": {
+      "invitations": "500+ Invitations Created",
+      "guests": "50k+ Guests Welcomed",
+      "satisfaction": "100% Client Satisfaction"
+    }
+  },
+  "mockup": {
+    "badge": "Preview",
+    "eventTitle": "Elen & David",
+    "subtitle": "Our Wedding Celebration",
+    "date": "October 15, 2026",
+    "time": "17:00",
+    "location": "Seven Visions Resort, Yerevan",
+    "countdownLabel": "Time remaining until the celebration:",
+    "days": "days",
+    "hours": "hrs",
+    "mins": "min",
+    "secs": "sec",
+    "rsvpButton": "Confirm Attendance (RSVP)",
+    "mapButton": "Open in Google Maps",
+    "musicPlaying": "Ambient Music Playing"
+  },
+  "occasions": {
+    "badge": "Milestones",
+    "title": "Celebrated Occasions",
+    "subtitle": "ELARIS is thoughtfully designed for each and every cherished celebration throughout your journey",
+    "items": {
+      "wedding": {
+        "title": "Weddings",
+        "description": "A bespoke and unforgettable digital love story crafted for your grand celebration"
+      },
+      "engagement": {
+        "title": "Engagements",
+        "description": "Warm, emotional, and romantic invitations marking the beginning of your shared chapter"
+      },
+      "birthday": {
+        "title": "Birthdays",
+        "description": "Vibrant, stylish, and playful digital experiences for adults and children alike"
+      },
+      "baptism": {
+        "title": "Baptisms",
+        "description": "A luminous, blessed aesthetic tailored for holy christenings and spiritual milestones"
+      },
+      "corporate": {
+        "title": "Corporate Events",
+        "description": "Polished, prestigious invitations designed for executive galas and formal summits"
+      }
+    }
+  },
+  "catalog": {
+    "badge": "Collection",
+    "title": "Invitation Catalog",
+    "subtitle": "Discover our signature curated designs or request a fully bespoke custom experience",
+    "searchPlaceholder": "Search by title or theme...",
+    "filterAll": "All",
+    "filterWedding": "Weddings",
+    "filterEngagement": "Engagements",
+    "filterBirthday": "Birthdays",
+    "filterBaptism": "Baptisms",
+    "filterCorporate": "Corporate",
+    "viewButton": "View",
+    "orderButton": "Order",
+    "priceCurrency": "֏",
+    "noResults": "No invitations match your selected criteria.",
+    "demoNotice": "Preview opens in a new tab"
+  },
+  "howItWorks": {
+    "badge": "Process",
+    "title": "How It Works",
+    "subtitle": "Just 5 simple steps to launch your dream digital event invitation",
+    "steps": {
+      "step1": {
+        "number": "01",
+        "title": "Choose your design",
+        "desc": "Select a curated design from our catalog or choose our bespoke Signature package."
+      },
+      "step2": {
+        "number": "02",
+        "title": "Send your event details",
+        "desc": "Fill in our order form with your date, venue, timeline, and special wishes."
+      },
+      "step3": {
+        "number": "03",
+        "title": "We personalize your invitation",
+        "desc": "Our designers meticulously craft your private interactive web experience."
+      },
+      "step4": {
+        "number": "04",
+        "title": "Review the final version",
+        "desc": "Inspect your preview, test interactive features, and request any fine adjustments."
+      },
+      "step5": {
+        "number": "05",
+        "title": "Receive your invitation link",
+        "desc": "Share your personalized web link instantly via WhatsApp, Telegram, or SMS."
+      }
+    }
+  },
+  "features": {
+    "badge": "Features",
+    "title": "Why Digital Invitations?",
+    "subtitle": "Everything you need to provide an effortless and memorable guest experience",
+    "items": {
+      "rsvp": {
+        "title": "RSVP Attendance System",
+        "desc": "Guests confirm in seconds with guest count, meal choices, and dietary notes"
+      },
+      "guestConfirmation": {
+        "title": "Real-time Guest Tracker",
+        "desc": "Always stay informed of confirmed attendances directly in your dashboard"
+      },
+      "countdown": {
+        "title": "Live Countdown Timer",
+        "desc": "An animated timer building anticipation for the big moment"
+      },
+      "maps": {
+        "title": "Google Maps & Waze",
+        "desc": "One-touch direct navigation to your ceremony and banquet halls"
+      },
+      "music": {
+        "title": "Background Soundtrack",
+        "desc": "Your signature romantic melody plays automatically when guests open the page"
+      },
+      "gallery": {
+        "title": "Photo & Story Gallery",
+        "desc": "High-resolution photo showcase highlighting your finest moments"
+      },
+      "schedule": {
+        "title": "Event Schedule & Timeline",
+        "desc": "Clear itinerary for arrival, ceremony, dinner, and dancing"
+      },
+      "animations": {
+        "title": "Refined Animations",
+        "desc": "Smooth, fluid interactions that breathe elegance into every screen"
+      },
+      "singleLink": {
+        "title": "One Shareable Link",
+        "desc": "Easily forward to unlimited guests worldwide across any messaging app"
+      },
+      "mobileFriendly": {
+        "title": "100% Mobile Optimized",
+        "desc": "Flawless responsive experience on iPhones, Android phones, tablets, and laptops"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Packages",
+    "title": "Pricing & Packages",
+    "subtitle": "Choose the optimal plan tailored to your event requirements",
+    "popular": "Popular",
+    "bespoke": "Bespoke",
+    "cta": "Choose Plan",
+    "packages": {
+      "start": {
+        "name": "START",
+        "price": "10,900",
+        "desc": "Essential, elegant digital invitation for your milestone occasion:",
+        "features": [
+          "Interactive Google Maps and calendar sync",
+          "Live event countdown timer",
+          "Subtle luxury entrance animations",
+          "Unlimited distribution to guests",
+          "Background soundtrack (Complimentary)",
+          "Active invitation link for 6 months"
+        ]
+      },
+      "elegant": {
+        "name": "ELEGANT",
+        "price": "14,500",
+        "desc": "Our most popular choice, complete with RSVP system and guest analytics:",
+        "features": [
+          "Everything in START package",
+          "Interactive RSVP attendance form",
+          "Live guest response tracking spreadsheet",
+          "High-res photo story gallery",
+          "Custom typography and color theme tweaks",
+          "Detailed event schedule & program",
+          "Active invitation link for 1 year"
+        ]
+      },
+      "signature": {
+        "name": "SIGNATURE",
+        "price": "28,900",
+        "desc": "A completely bespoke one-of-a-kind design with VIP white-glove service:",
+        "features": [
+          "100% custom, original design and layout",
+          "Everything in ELEGANT package",
+          "Custom music player and video backdrop",
+          "Dress code guide and gift registry block",
+          "Dedicated designer & express 24h delivery",
+          "Unlimited revisions until your event date",
+          "Lifetime active link hosting"
+        ]
+      }
+    }
+  },
+  "order": {
+    "badge": "Order",
+    "title": "Order an Invitation",
+    "subtitle": "Submit your inquiry, and our coordinator will connect with you to finalize every detail",
+    "fields": {
+      "name": "Your Full Name *",
+      "namePlaceholder": "e.g., Anna Sargsyan",
+      "brideName": "Bride's Name *",
+      "brideNamePlaceholder": "e.g., Elen",
+      "groomName": "Groom's Name *",
+      "groomNamePlaceholder": "e.g., David",
+      "phone": "Phone Number *",
+      "phonePlaceholder": "+374 (__) __-__-__",
+      "email": "Email Address (optional)",
+      "emailPlaceholder": "example@mail.com",
+      "eventType": "Event Type *",
+      "eventTypePlaceholder": "Select event type",
+      "preferredInvitation": "Preferred Design or Package",
+      "preferredInvitationPlaceholder": "e.g., Elegance Gold or ELEGANT Package",
+      "eventDate": "Event Date",
+      "message": "Additional Details or Requests",
+      "messagePlaceholder": "Estimated guest count, theme preferences, special requests...",
+      "submit": "Submit Order",
+      "submitting": "Submitting..."
+    },
+    "eventOptions": {
+      "wedding": "Wedding",
+      "engagement": "Engagement",
+      "birthday": "Birthday",
+      "baptism": "Baptism",
+      "corporate": "Corporate Event"
+    },
+    "messages": {
+      "successTitle": "Thank you! Your order has been placed.",
+      "successDesc": "An ELARIS coordinator will reach out to you shortly to begin personalizing your invitation.",
+      "errorTitle": "An error occurred",
+      "errorDesc": "Please check your input details or contact our team directly via phone.",
+      "validationError": "Please fill in all required fields (*)"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Contact Us",
+    "subtitle": "Have questions or need a custom consultation? We are delighted to assist you.",
+    "info": {
+      "phoneTitle": "Phone",
+      "emailTitle": "Email",
+      "instagramTitle": "Instagram",
+      "hoursTitle": "Working Hours",
+      "hoursDesc": "Mon - Sun, 10:00 - 21:00"
+    },
+    "form": {
+      "title": "Quick Message",
+      "name": "Your Name",
+      "contactInfo": "Phone or Email",
+      "message": "Message",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Your message was sent successfully!"
+    }
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to key questions about our digital invitation experience",
+    "items": [
+      {
+        "q": "How long does it take to create an invitation?",
+        "a": "Invitations are typically completed in 1 to 3 business days. For urgent situations, we can deliver within a few hours. Signature custom projects follow an agreed timeline."
+      },
+      {
+        "q": "Can I customize the design?",
+        "a": "Absolutely. You can tailor colors, typography, add personal photos, choose your favorite music, and include custom timeline blocks."
+      },
+      {
+        "q": "Can I change the information later?",
+        "a": "Yes, updates are fast and FREE! All updates apply immediately to your live link without having to resend anything to your guests."
+      },
+      {
+        "q": "Can I add background music?",
+        "a": "Yes, you can choose any melody or soundtrack that plays when guests open your invitation, with an easy mute/unmute control."
+      },
+      {
+        "q": "What is RSVP and how do guests confirm attendance?",
+        "a": "RSVP is an online attendance form. Guests enter their name, confirm whether they are attending, specify guest count, and note preferences. All responses appear in your live table."
+      },
+      {
+        "q": "Can guests open the invitation from any device?",
+        "a": "Yes, every invitation is 100% responsive and optimized for iPhones, Android smartphones, tablets, and desktop computers."
+      },
+      {
+        "q": "Can I add Google Maps and Waze directions?",
+        "a": "Yes, interactive map navigation buttons are integrated directly into the invitation for effortless one-tap routing."
+      },
+      {
+        "q": "How do I receive the final invitation?",
+        "a": "You receive a beautiful dedicated link (e.g. elaris.am/your-event) that you can easily copy and share via WhatsApp, Telegram, Instagram, or SMS."
+      },
+      {
+        "q": "How long does the invitation link remain active?",
+        "a": "Depending on your selected plan, links remain active from 6 months to 1 full year (or lifetime on our Signature package)."
+      }
+    ]
+  },
+  "footer": {
+    "brandDescription": "ELARIS — Premium digital invitations for life's most meaningful celebrations. Elegance, innovation, and emotion in one link.",
+    "quickLinks": "Quick Links",
+    "occasions": "Occasions",
+    "contactInfo": "Contact Information",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top"
+  }
+}
