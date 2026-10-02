@@ -44,7 +44,7 @@ export default function HeroSection({ onViewInvitations, onOrderClick }) {
             </div>
 
             {/* Main Headline */}
-            <h1 className="font-serif text-3.5xl sm:text-xl lg:text-5xl font-bold text-elaris-text tracking-tight leading-[1.18]">
+            <h1 className="font-serif text-3.5xl sm:text-xl lg:text-3xl font-bold text-elaris-text tracking-tight leading-[1.18]">
               {t('hero.title')}
             </h1>
 
