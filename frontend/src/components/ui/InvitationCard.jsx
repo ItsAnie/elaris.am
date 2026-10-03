@@ -24,23 +24,16 @@ export default function InvitationCard({ invitation, onOrder }) {
   return (
     <div className="group bg-elaris-bg-card rounded-2xl overflow-hidden border border-elaris-border hover:border-elaris-accent/60 shadow-elaris-soft hover:shadow-elaris-card transition-all duration-300 flex flex-col h-full transform hover:-translate-y-1">
       {/* Visual / Preview Container */}
-      <div className="relative aspect-[4/3] w-full overflow-hidden bg-elaris-bg-secondary/40">
+      <div className="relative py-3">
         <img
           src={invitation.image}
           alt={title}
           loading="lazy"
-          className="w-full h-full object-cover object-center group-hover:scale-103 transition-transform duration-500 ease-out"
+          className="w-full rounded-3xl object-contain aspect-[4/5] group-hover:scale-103 transition-transform duration-500 ease-out"
         />
 
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
-
-        {/* Category Tag */}
-        <div className="absolute top-3 left-3">
-          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-[11px] font-medium tracking-wide bg-elaris-bg-card/90 text-elaris-dark backdrop-blur-sm shadow-sm border border-elaris-border/50">
-            {categoryLabel}
-          </span>
-        </div>
 
         {/* Price Tag Overlay */}
         <div className="absolute bottom-3 right-3 bg-elaris-dark/90 backdrop-blur-sm text-elaris-bg px-2.5 py-0.5 rounded-full text-xs font-medium shadow-sm">

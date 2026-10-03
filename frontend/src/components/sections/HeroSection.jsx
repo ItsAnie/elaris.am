@@ -38,13 +38,13 @@ export default function HeroSection({ onViewInvitations, onOrderClick }) {
           {/* Left Column: Copy & Actions */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
             {/* Pill Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 border border-elaris-border shadow-sm text-xs font-semibold text-elaris-text tracking-wide">
+            <div className="inline-flex uppercase items-center gap-2 px-4 py-1.5 rounded-full bg-white/80 border border-elaris-border shadow-sm text-xs font-semibold text-elaris-text tracking-wide">
               <Sparkles className="w-3.5 h-3.5 text-elaris-accent" />
-              <span>{t('hero.badge')}</span>
+              <span>Elaris - Թվային հրավիրատոմսեր</span>
             </div>
 
             {/* Main Headline */}
-            <h1 className="font-serif text-3.5xl sm:text-xl lg:text-3xl font-bold text-elaris-text tracking-tight leading-[1.18]">
+            <h1 className="font-serif text-3.5xl sm:text-5xl lg:text-6xl font-bold text-elaris-text tracking-tight leading-[1.18]">
               {t('hero.title')}
             </h1>
 
@@ -75,6 +75,7 @@ export default function HeroSection({ onViewInvitations, onOrderClick }) {
                 {t('hero.viewInvitations')}
               </Button>
             </div>
+
           </div>
 
           {/* Right Column: Interactive Phone Mockup */}
