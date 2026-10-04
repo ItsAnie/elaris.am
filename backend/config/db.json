@@ -1,30 +1,6 @@
 {
   "invitations": [
     {
-      "id": "invitation-001",
-      "title": {
-        "hy": "Elegance Gold",
-        "ru": "Elegance Gold",
-        "en": "Elegance Gold"
-      },
-      "category": "wedding",
-      "price": 14500,
-      "image": "/images/invitations/wedding-1.jpg",
-      "previewUrl": "https://example.com/preview/invitation-001",
-      "description": {
-        "hy": "Ոսկեզօծ շեշտադրումներով և մինիմալիստական էսթետիկայով շքեղ հրավիրատոմս:",
-        "ru": "Роскошное приглашение с золотыми акцентами и минималистичной эстетикой.",
-        "en": "A luxurious digital invitation featuring soft gold accents and timeless typography."
-      },
-      "features": [
-        "rsvp",
-        "music",
-        "map",
-        "countdown",
-        "gallery"
-      ]
-    },
-    {
       "id": "invitation-002",
       "title": {
         "hy": "Pure Pearl",
@@ -79,7 +55,7 @@
         "en": "Golden Jubilee"
       },
       "category": "birthday",
-      "price": 10900,
+      "price": 11000,
       "image": "/images/invitations/birthday-1.jpg",
       "previewUrl": "https://example.com/preview/invitation-004",
       "description": {
