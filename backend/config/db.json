@@ -1,30 +1,6 @@
 {
   "invitations": [
     {
-      "id": "invitation-002",
-      "title": {
-        "hy": "Pure Pearl",
-        "ru": "Pure Pearl",
-        "en": "Pure Pearl"
-      },
-      "category": "wedding",
-      "price": 13500,
-      "image": "/images/invitations/wedding-2.jpg",
-      "previewUrl": "https://example.com/preview/invitation-002",
-      "description": {
-        "hy": "Մարգարտյա նուրբ երանգներ, անիմացիոն ծաղկային շեշտադրումներ և ռոմանտիկ մթնոլորտ:",
-        "ru": "Нежные жемчужные тона, анимированные флористические акценты и романтика.",
-        "en": "Delicate pearl tones, animated floral accents, and a romantic atmosphere."
-      },
-      "features": [
-        "rsvp",
-        "music",
-        "map",
-        "countdown",
-        "schedule"
-      ]
-    },
-    {
       "id": "invitation-003",
       "title": {
         "hy": "Velvet Promise",
@@ -36,7 +12,7 @@
       "image": "/images/invitations/engagement-1.jpg",
       "previewUrl": "https://example.com/preview/invitation-003",
       "description": {
-        "hy": "Նուրբ և ջերմ ձևավորում նշանդրեքի արարողության համար՝ անհատական երաժշտությամբ:",
+        "hy": "Նուրբ և ջերմ ձևավորում նշանադրության արարողության համար՝ անհատական երաժշտությամբ:",
         "ru": "Изысканный и теплый дизайн для церемонии помолвки с индивидуальной музыкой.",
         "en": "Warm and graceful design crafted for engagement celebrations with custom music."
       },

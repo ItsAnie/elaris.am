@@ -47,10 +47,6 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-elaris-border text-xs font-semibold text-elaris-accent mb-4 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t('contact.badge')}</span>
-          </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-elaris-text tracking-tight">
             {t('contact.title')}
@@ -82,25 +78,7 @@ export default function ContactSection() {
                 </span>
               </div>
             </a>
-
-            {/* Email */}
-            <a
-              href={`mailto:${contactConfig.email}`}
-              className="flex items-center gap-4 p-5 bg-white rounded-2xl border border-elaris-border shadow-sm hover:border-elaris-accent/40 transition-all group"
-            >
-              <div className="w-12 h-12 rounded-xl bg-elaris-bg flex items-center justify-center text-elaris-accent group-hover:bg-elaris-accent group-hover:text-white transition-all shadow-inner">
-                <Mail className="w-5 h-5" />
-              </div>
-              <div>
-                <span className="text-xs uppercase tracking-wider text-elaris-text-muted block">
-                  {t('contact.info.emailTitle')}
-                </span>
-                <span className="text-sm sm:text-base font-semibold text-elaris-text group-hover:text-elaris-accent transition-colors">
-                  {contactConfig.email}
-                </span>
-              </div>
-            </a>
-
+            
             {/* Instagram */}
             <a
               href={contactConfig.instagramUrl}
@@ -120,21 +98,6 @@ export default function ContactSection() {
                 </span>
               </div>
             </a>
-
-            {/* Working Hours */}
-            <div className="flex items-center gap-4 p-5 bg-white/70 rounded-2xl border border-elaris-border shadow-sm">
-              <div className="w-12 h-12 rounded-xl bg-elaris-bg flex items-center justify-center text-elaris-text-muted">
-                <Clock className="w-5 h-5" />
-              </div>
-              <div>
-                <span className="text-xs uppercase tracking-wider text-elaris-text-muted block">
-                  {t('contact.info.hoursTitle')}
-                </span>
-                <span className="text-sm font-medium text-elaris-text">
-                  {t('contact.info.hoursDesc')}
-                </span>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Message Form */}

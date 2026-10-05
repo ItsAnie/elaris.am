@@ -12,10 +12,6 @@ export default function PricingSection({ onSelectPackage }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-elaris-border text-xs font-semibold text-elaris-accent mb-4 shadow-sm">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>{t('pricing.badge')}</span>
-          </div>
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-elaris-text tracking-tight">
             {t('pricing.title')}

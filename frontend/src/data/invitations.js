@@ -8,12 +8,12 @@ export const invitationsData = [
   {
     id: "invitation-001",
     title: {
-      hy: "Elegance Gold",
-      ru: "Elegance Gold",
-      en: "Elegance Gold"
+      hy: "Elegant",
+      ru: "Elegant",
+      en: "Elegant"
     },
     category: "wedding",
-    price: 14500,
+    price: 15000,
     image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
     previewUrl: "https://example.com/preview/invitation-001",
     description: {
@@ -53,7 +53,7 @@ export const invitationsData = [
     image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80",
     previewUrl: "https://example.com/preview/invitation-003",
     description: {
-      hy: "Նուրբ և ջերմ ձևավորում նշանդրեքի արարողության համար՝ անհատական երաժշտությամբ:",
+      hy: "Նուրբ և ջերմ ձևավորում նշանադրության արարողության համար՝ անհատական երաժշտությամբ:",
       ru: "Изысканный и теплый дизайн для церемонии помолвки с индивидуальной музыкой.",
       en: "Warm and graceful design crafted for engagement celebrations with custom music."
     },
@@ -143,7 +143,7 @@ export const invitationsData = [
     image: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80",
     previewUrl: "https://example.com/preview/invitation-008",
     description: {
-      hy: "Ռոմանտիկ մինիմալիզմ նշանդրեքի և սիրո խոստման արարողության համար:",
+      hy: "Ռոմանտիկ մինիմալիզմ նշանադրության և սիրո խոստման արարողության համար:",
       ru: "Романтический минимализм для церемонии помолвки и клятвы любви.",
       en: "Romantic minimalism celebrating engagement promises and love stories."
     },

@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ArrowRight, Sparkles, Volume2, MapPin, Calendar, CheckCircle2 } from 'lucide-react';
 import Button from '../ui/Button';
 import useTranslation from '../../hooks/useTranslation';
-import framyImg1 from '../../assets/framy-img1.png';
-import framyImg2 from '../../assets/framy-img2.png';
+import group from '../../assets/group.png';
 
 export default function HeroSection({ onViewInvitations, onOrderClick }) {
   const { t } = useTranslation();
@@ -80,13 +79,11 @@ export default function HeroSection({ onViewInvitations, onOrderClick }) {
 
           {/* Right Column: Interactive Phone Mockup */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
-            <div className="relative w-full max-w-[340px] sm:max-w-[360px]">
-              {/* Phone Frame */}
-              <div className='flex'>
-                <img src={framyImg1} className='rounded-3xl' />
-                <img src={framyImg2} className='absolute z-10 right-1/4 top-6 rounded-3xl' />
-              </div>
-            </div>
+            <img
+              src={group}
+              alt="Elaris digital invitations"
+              className="w-full max-w-xl object-contain"
+            />
           </div>
         </div>
       </div>

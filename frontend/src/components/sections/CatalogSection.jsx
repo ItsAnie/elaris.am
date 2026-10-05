@@ -59,9 +59,6 @@ export default function CatalogSection({ selectedCategory, onCategoryChange, onO
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-xs uppercase tracking-[0.2em] font-semibold text-elaris-text-muted mb-2 block">
-            {t('catalog.badge')}
-          </span>
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-elaris-dark tracking-tight">
             {t('catalog.title')}

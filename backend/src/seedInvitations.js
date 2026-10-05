@@ -9,9 +9,9 @@ const invitations = [
       en: 'Elegant'
     },
     category: 'wedding',
-    price: 14500,
+    price: 11000,
     image: 'https://elaris-am.vercel.app/assets/framy-img1-DiNoN5Q5.png',
-    previewUrl: 'https://example.com/preview/invitation-001',
+    previewUrl: 'https://elegant-wedding-phi.vercel.app/',
     description: {
       hy: 'Նուրբ շեշտադրումներով և մինիմալիստական էսթետիկայով շքեղ հրավիրատոմս:',
       ru: 'Роскошное приглашение с элегантными акцентами и минималистичной эстетикой.',
@@ -23,18 +23,18 @@ const invitations = [
   {
     id: 'invitation-002',
     title: {
-      hy: 'Pure Pearl',
-      ru: 'Pure Pearl',
-      en: 'Pure Pearl'
+      hy: 'Luxury',
+      ru: 'Luxury',
+      en: 'Luxury'
     },
     category: 'wedding',
-    price: 13500,
-    image: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80',
-    previewUrl: 'https://example.com/preview/invitation-002',
+    price: 11000,
+    image: 'https://elaris-am.vercel.app/assets/framy-img2-BFg_eHwd.png',
+    previewUrl: 'https://luxe-invitation.vercel.app/',
     description: {
-      hy: 'Մարգարտյա նուրբ երանգներ, անիմացիոն ծաղկային շեշտադրումներ և ռոմանտիկ մթնոլորտ:',
-      ru: 'Нежные жемчужные тона, анимированные флористические акценты и романтика.',
-      en: 'Delicate pearl tones, animated floral accents, and a romantic atmosphere.'
+      hy: 'Տաք երանգներ, անիմացիոն վառ շեշտադրումներ և ռոմանտիկ մթնոլորտ:',
+      ru: 'Тёплые оттенки, яркие анимационные акценты и романтическая атмосфера.',
+      en: 'Warm tones, vibrant animated accents, and a romantic atmosphere.'
     },
     features: ['rsvp', 'music', 'map', 'countdown', 'schedule']
   },
@@ -51,7 +51,7 @@ const invitations = [
     image: 'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80',
     previewUrl: 'https://example.com/preview/invitation-003',
     description: {
-      hy: 'Նուրբ և ջերմ ձևավորում նշանդրեքի արարողության համար՝ անհատական երաժշտությամբ:',
+      hy: 'Նուրբ և ջերմ ձևավորում նշանադրության արարողության համար՝ անհատական երաժշտությամբ:',
       ru: 'Изысканный и теплый дизайн для церемонии помолвки с индивидуальной музыкой.',
       en: 'Warm and graceful design crafted for engagement celebrations with custom music.'
     },
@@ -146,7 +146,7 @@ const invitations = [
     image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=800&q=80',
     previewUrl: 'https://example.com/preview/invitation-008',
     description: {
-      hy: 'Ռոմանտիկ մինիմալիզմ նշանդրեքի և սիրո խոստման արարողության համար:',
+      hy: 'Ռոմանտիկ մինիմալիզմ նշանադրության և սիրո խոստման արարողության համար:',
       ru: 'Романтический минимализм для церемонии помолвки и клятвы любви.',
       en: 'Romantic minimalism celebrating engagement promises and love stories.'
     },

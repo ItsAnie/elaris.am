@@ -176,7 +176,7 @@
     "packages": {
       "start": {
         "name": "START",
-        "price": "10,900",
+        "price": "11,000",
         "desc": "Essential, elegant digital invitation for your milestone occasion:",
         "features": [
           "Interactive Google Maps and calendar sync",
@@ -189,7 +189,7 @@
       },
       "elegant": {
         "name": "ELEGANT",
-        "price": "14,500",
+        "price": "15,000",
         "desc": "Our most popular choice, complete with RSVP system and guest analytics:",
         "features": [
           "Everything in START package",
@@ -203,7 +203,7 @@
       },
       "signature": {
         "name": "SIGNATURE",
-        "price": "28,900",
+        "price": "26,000",
         "desc": "A completely bespoke one-of-a-kind design with VIP white-glove service:",
         "features": [
           "100% custom, original design and layout",

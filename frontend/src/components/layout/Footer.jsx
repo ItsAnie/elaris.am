@@ -61,15 +61,6 @@ export default function Footer() {
               >
                 <Instagram className="w-4 h-4" />
               </a>
-              <a
-                href={contactConfig.telegramUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Telegram"
-                className="w-10 h-10 rounded-full bg-white border border-elaris-border flex items-center justify-center text-elaris-text hover:text-elaris-accent hover:border-elaris-accent transition-colors shadow-sm"
-              >
-                <Send className="w-4 h-4" />
-              </a>
             </div>
           </div>
 
@@ -125,13 +116,6 @@ export default function Footer() {
               >
                 <Phone className="w-4 h-4 text-elaris-accent flex-shrink-0" />
                 <span>{contactConfig.phoneDisplay}</span>
-              </a>
-              <a
-                href={`mailto:${contactConfig.email}`}
-                className="flex items-center gap-2 hover:text-elaris-accent transition-colors"
-              >
-                <Mail className="w-4 h-4 text-elaris-accent flex-shrink-0" />
-                <span>{contactConfig.email}</span>
               </a>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-elaris-accent flex-shrink-0" />

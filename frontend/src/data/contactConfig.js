@@ -7,24 +7,20 @@ export const contactConfig = {
   brandName: "ELARIS",
   
   // Phone numbers
-  phoneDisplay: "+374 (00) 00-00-00",
-  phoneRaw: "+37400000000",
-  
-  // Email addresses
-  email: "info@elaris.am",
-  supportEmail: "support@elaris.am",
+  phoneDisplay: "+374 (77) 72-07-82",
+  phoneRaw: "+37477720782",
   
   // Social media
-  instagramUrl: "https://instagram.com/elaris.invitations",
-  instagramHandle: "@elaris.invitations",
+  instagramUrl: "https://www.instagram.com/elaris_digi?stkn=MXM4bzl6bm1za2ZoNg",
+  instagramHandle: "@elaris_digi",
   
   telegramUrl: "https://t.me/elaris_invitations",
   telegramHandle: "@elaris_invitations",
   
-  whatsappUrl: "https://wa.me/37400000000",
+  whatsappUrl: "https://wa.me/37477720782",
   
   // Physical / city location
-  location: "Yerevan, Armenia",
+  location: "Vagharshapat, Armenia",
   
   // Working hours
   workingHours: "10:00 - 21:00"
