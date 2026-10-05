@@ -16,8 +16,8 @@ export async function fetchInvitations(category = '') {
     const data = await response.json();
     return data.data || [];
   } catch (error) {
-    console.warn('API error, falling back to local static catalog:', error);
-    return null; // Signals component to use bundled static data
+    console.error('API error:', error);
+    throw error;
   }
 }
 

@@ -8,7 +8,7 @@ import { fetchInvitations } from '../../services/api';
 export default function CatalogSection({ selectedCategory, onCategoryChange, onOrderInvitation }) {
   const { t, getLocalized } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
-  const [invitations, setInvitations] = useState(invitationsData);
+  const [invitations, setInvitations] = useState([]);
 
   // Strictly 5 categories + All
   const filterTabs = [
@@ -23,18 +23,26 @@ export default function CatalogSection({ selectedCategory, onCategoryChange, onO
   // Try fetching fresh data from backend, fallback to static
   useEffect(() => {
     let isMounted = true;
+
     async function loadBackendData() {
       try {
-        const data = await fetchInvitations(selectedCategory === 'all' ? '' : selectedCategory);
-        if (isMounted && data && Array.isArray(data) && data.length > 0) {
+        const data = await fetchInvitations(
+          selectedCategory === 'all' ? '' : selectedCategory
+        );
+
+        if (isMounted && Array.isArray(data)) {
           setInvitations(data);
         }
-      } catch (e) {
-        // Fallback to local static
+      } catch (error) {
+        console.error('Failed to load invitations:', error);
       }
     }
+
     loadBackendData();
-    return () => { isMounted = false; };
+
+    return () => {
+      isMounted = false;
+    };
   }, [selectedCategory]);
 
   // Client-side filtering by category and search

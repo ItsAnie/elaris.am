@@ -14,7 +14,7 @@ export const invitationsData = [
     },
     category: "wedding",
     price: 15000,
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+    image: "https://elaris-am.vercel.app/assets/framy-img1-D6yLi5VY.png",
     previewUrl: "https://example.com/preview/invitation-001",
     description: {
       hy: "Ոսկեզօծ շեշտադրումներով և մինիմալիստական էսթետիկայով շքեղ հրավիրատոմս:",
