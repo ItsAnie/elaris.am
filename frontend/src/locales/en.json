@@ -170,26 +170,26 @@
     "badge": "Packages",
     "title": "Pricing & Packages",
     "subtitle": "Choose the optimal plan tailored to your event requirements",
+    "econom": "Economy",
     "popular": "Popular",
     "bespoke": "Bespoke",
     "cta": "Choose Plan",
     "packages": {
       "start": {
         "name": "START",
-        "price": "11,000",
+        "price": "10,000",
         "desc": "Essential, elegant digital invitation for your milestone occasion:",
         "features": [
           "Interactive Google Maps and calendar sync",
           "Live event countdown timer",
           "Subtle luxury entrance animations",
           "Unlimited distribution to guests",
-          "Background soundtrack (Complimentary)",
-          "Active invitation link for 6 months"
+          "Background soundtrack (Complimentary)"
         ]
       },
       "elegant": {
-        "name": "ELEGANT",
-        "price": "15,000",
+        "name": "CLASSIC",
+        "price": "13,000",
         "desc": "Our most popular choice, complete with RSVP system and guest analytics:",
         "features": [
           "Everything in START package",
@@ -197,8 +197,7 @@
           "Live guest response tracking spreadsheet",
           "High-res photo story gallery",
           "Custom typography and color theme tweaks",
-          "Detailed event schedule & program",
-          "Active invitation link for 1 year"
+          "Detailed event schedule & program"
         ]
       },
       "signature": {
@@ -206,13 +205,11 @@
         "price": "26,000",
         "desc": "A completely bespoke one-of-a-kind design with VIP white-glove service:",
         "features": [
-          "100% custom, original design and layout",
-          "Everything in ELEGANT package",
-          "Custom music player and video backdrop",
-          "Dress code guide and gift registry block",
-          "Dedicated designer & express 24h delivery",
-          "Unlimited revisions until your event date",
-          "Lifetime active link hosting"
+          "Fully personalized design in your style",
+          "All CLASSIC package features",
+          "Custom RSVP questions and preferences",
+          "Detailed guest response management",
+          "Necessary changes until the event day"
         ]
       }
     }
@@ -225,17 +222,13 @@
       "name": "Your Full Name *",
       "namePlaceholder": "e.g., Anna Sargsyan",
       "brideName": "Bride's Name *",
-      "brideNamePlaceholder": "e.g., Elen",
       "groomName": "Groom's Name *",
-      "groomNamePlaceholder": "e.g., David",
       "phone": "Phone Number *",
-      "phonePlaceholder": "+374 (__) __-__-__",
       "email": "Email Address (optional)",
-      "emailPlaceholder": "example@mail.com",
       "eventType": "Event Type *",
       "eventTypePlaceholder": "Select event type",
       "preferredInvitation": "Preferred Design or Package",
-      "preferredInvitationPlaceholder": "e.g., Elegance Gold or ELEGANT Package",
+      "preferredInvitationPlaceholder": "e.g., Elegant or CLASSIC Package",
       "eventDate": "Event Date",
       "message": "Additional Details or Requests",
       "messagePlaceholder": "Estimated guest count, theme preferences, special requests...",
@@ -263,10 +256,7 @@
     "subtitle": "Have questions or need a custom consultation? We are delighted to assist you.",
     "info": {
       "phoneTitle": "Phone",
-      "emailTitle": "Email",
-      "instagramTitle": "Instagram",
-      "hoursTitle": "Working Hours",
-      "hoursDesc": "Mon - Sun, 10:00 - 21:00"
+      "instagramTitle": "Instagram"
     },
     "form": {
       "title": "Quick Message",

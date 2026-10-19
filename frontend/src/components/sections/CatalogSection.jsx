@@ -8,7 +8,7 @@ import { fetchInvitations } from '../../services/api';
 export default function CatalogSection({ selectedCategory, onCategoryChange, onOrderInvitation }) {
   const { t, getLocalized } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
-  const [invitations, setInvitations] = useState([]);
+  const [invitations, setInvitations] = useState(invitationsData);
 
   // Strictly 5 categories + All
   const filterTabs = [

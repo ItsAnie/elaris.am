@@ -16,18 +16,30 @@ export default function PricingCard({ packageData, onSelect }) {
 
   const isPopular = packageData.popular;
   const isBespoke = packageData.bespoke;
+  const isEconom = packageData.econom
 
   return (
-    <div
-      className={`relative bg-elaris-bg-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 ${
-        isPopular
-          ? 'border-2 border-elaris-accent shadow-elaris-card md:-translate-y-2'
-          : isBespoke
-          ? 'border border-elaris-border shadow-elaris-soft'
-          : 'border border-elaris-border shadow-elaris-soft'
-      }`}
-    >
+      <div
+        className={`relative rounded-3xl p-6 sm:p-7 flex flex-col justify-between transition-all duration-300 ${
+          isPopular
+            ? 'bg-elaris-bg-card border-2 border-elaris-accent shadow-elaris-card md:-translate-y-2'
+            : isEconom
+            ? 'bg-elaris-bg-card border border-elaris-border shadow-elaris-soft'
+            : isBespoke
+            ? 'bg-elaris-bg-card border border-elaris-border shadow-elaris-soft'
+            : 'bg-elaris-bg-card border border-elaris-border shadow-elaris-soft'
+        }`}
+      >
+        
       {/* Featured Ribbon / Badge */}
+      {isEconom && (
+        <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+          <span className="inline-flex items-center bg-elaris-accent text-white text-[10px] uppercase tracking-wider font-semibold px-3 py-0.5 rounded-full shadow-sm">
+            {t('pricing.econom')}
+          </span>
+        </div>
+      )}
+
       {isPopular && (
         <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
           <span className="inline-flex items-center bg-elaris-dark text-elaris-bg text-[10px] uppercase tracking-wider font-semibold px-3 py-0.5 rounded-full shadow-sm">

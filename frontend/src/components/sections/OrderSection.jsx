@@ -226,7 +226,6 @@ export default function OrderSection({ preselectedInvitation, preselectedPackage
                     name="brideName"
                     value={formData.brideName}
                     onChange={handleChange}
-                    placeholder={t('order.fields.brideNamePlaceholder')}
                     required
                     className={`w-full px-4 py-2.5 rounded-xl bg-elaris-bg border text-xs sm:text-sm text-elaris-text outline-none transition-all shadow-sm ${
                       fieldErrors.brideName ? 'border-red-400 focus:ring-1 focus:ring-red-400' : 'border-elaris-border focus:border-elaris-accent'
@@ -247,7 +246,6 @@ export default function OrderSection({ preselectedInvitation, preselectedPackage
                     name="groomName"
                     value={formData.groomName}
                     onChange={handleChange}
-                    placeholder={t('order.fields.groomNamePlaceholder')}
                     required
                     className={`w-full px-4 py-2.5 rounded-xl bg-elaris-bg border text-xs sm:text-sm text-elaris-text outline-none transition-all shadow-sm ${
                       fieldErrors.groomName ? 'border-red-400 focus:ring-1 focus:ring-red-400' : 'border-elaris-border focus:border-elaris-accent'
@@ -292,7 +290,6 @@ export default function OrderSection({ preselectedInvitation, preselectedPackage
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  placeholder={t('order.fields.phonePlaceholder')}
                   required
                   className={`w-full px-4 py-2.5 rounded-xl bg-elaris-bg border text-xs sm:text-sm text-elaris-text outline-none transition-all shadow-sm ${
                     fieldErrors.phone ? 'border-red-400 focus:ring-1 focus:ring-red-400' : 'border-elaris-border focus:border-elaris-accent'
@@ -309,7 +306,6 @@ export default function OrderSection({ preselectedInvitation, preselectedPackage
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder={t('order.fields.emailPlaceholder')}
                   className="w-full px-4 py-2.5 rounded-xl bg-elaris-bg border border-elaris-border focus:border-elaris-accent text-xs sm:text-sm text-elaris-text outline-none transition-all shadow-sm"
                 />
               </div>

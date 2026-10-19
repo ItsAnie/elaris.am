@@ -53,10 +53,12 @@ const orders = {
   find: async () => {
     const snapshot = await ordersCollection.get();
 
-    return snapshot.docs.map(doc => ({
+    const list = snapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
     }));
+
+    return list.sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
   },
 
   findById: async (id) => {
@@ -91,10 +93,12 @@ const contactRequests = {
   find: async () => {
     const snapshot = await contactRequestsCollection.get();
 
-    return snapshot.docs.map(doc => ({
+    const list = snapshot.docs.map(doc => ({
       id: doc.id,
       ...doc.data()
     }));
+
+    return list.sort((a, b) => (b.createdAt || '').localeCompare(a.createdAt || ''));
   }
 };
 

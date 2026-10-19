@@ -146,7 +146,6 @@ export default function ContactSection() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    placeholder="+374..."
                     className="w-full px-4 py-3 rounded-xl bg-elaris-bg border border-elaris-border focus:border-elaris-accent focus:bg-white text-sm text-elaris-text outline-none transition-all shadow-inner"
                   />
                 </div>
@@ -160,7 +159,6 @@ export default function ContactSection() {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="email@example.com"
                     className="w-full px-4 py-3 rounded-xl bg-elaris-bg border border-elaris-border focus:border-elaris-accent focus:bg-white text-sm text-elaris-text outline-none transition-all shadow-inner"
                   />
                 </div>

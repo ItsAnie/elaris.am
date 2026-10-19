@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowUp, Instagram, Send, Phone, Mail, MapPin } from 'lucide-react';
 import Logo from '../ui/Logo';
-import LanguageSwitcher from './LanguageSwitcher';
 import contactConfig from '../../data/contactConfig';
 import useTranslation from '../../hooks/useTranslation';
 
@@ -121,10 +120,6 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-elaris-accent flex-shrink-0" />
                 <span>{contactConfig.location}</span>
               </div>
-            </div>
-
-            <div className="pt-2">
-              <LanguageSwitcher isMobile={false} />
             </div>
           </div>
         </div>

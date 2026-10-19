@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import HeroSection from '../components/sections/HeroSection';
@@ -7,13 +7,32 @@ import InvitationCard from '../components/ui/InvitationCard';
 import FeaturesSection from '../components/sections/FeaturesSection';
 import invitationsData from '../data/invitations';
 import useTranslation from '../hooks/useTranslation';
+import { fetchInvitations } from '../services/api';
 
 export default function HomePage() {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-  // Top 4 curated invitations for the homepage preview
-  const featuredInvitations = invitationsData.slice(0, 4);
+  // Top 4 curated invitations: initialized with fallback, updated with live Firestore data
+  const [featuredInvitations, setFeaturedInvitations] = useState(() => invitationsData.slice(0, 4));
+
+  useEffect(() => {
+    let isMounted = true;
+    async function loadFeatured() {
+      try {
+        const data = await fetchInvitations();
+        if (isMounted && Array.isArray(data) && data.length > 0) {
+          setFeaturedInvitations(data.slice(0, 4));
+        }
+      } catch (err) {
+        // Fallback to static data remains seamlessly active
+      }
+    }
+    loadFeatured();
+    return () => {
+      isMounted = false;
+    };
+  }, []);
 
   const handleOrderInvitation = (invitation) => {
     navigate('/order', { state: { preselectedInvitation: invitation } });
